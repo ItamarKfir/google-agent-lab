@@ -8,7 +8,7 @@ def hello():
     return "Hello from Lab Test APP"
 
 @app.route("/Chat")
-def hello():
+def chat():
     return "Wellcome to the chat"
 
 if __name__ == "__main__":
