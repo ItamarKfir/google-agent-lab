@@ -9,7 +9,7 @@ def hello():
 
 @app.route("/chat")
 def chat():
-    return "Wellcome to the chat"
+    return "Wellcome to the chat 2"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
