@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     return "Hello from Lab Test APP"
 
-@app.route("/Chat")
+@app.route("/chat")
 def chat():
     return "Wellcome to the chat"
 
